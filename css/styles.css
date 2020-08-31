@@ -40,4 +40,10 @@
       text-align: center;
       color: white;
     }
+    .services h2{
+      padding-top: 55px;
+    }
+    .services p{
+      margin:auto, 60px;
+    }
     
