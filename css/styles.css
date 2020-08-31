@@ -16,3 +16,10 @@
       font-weight: 700;
       font-size: 3.0em;
     }
+    .mouse_click{
+      padding-top: 10%;
+      animation: 0.2s change infinite;
+    }
+    .mouse_click img{
+      box-shadow: 0 0 10px black;
+    }
