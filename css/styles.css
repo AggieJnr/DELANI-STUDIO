@@ -12,8 +12,8 @@
     margin-bottom: 50px;
     }
     h1{
-      font-family: serif;
-      font-weight: 700;
+      font-family: 'Roboto Slab', serif;
+      font-weight: 800;
       font-size: 3.0em;
     }
     .mouse_click{
@@ -81,7 +81,7 @@
     background:transparent;
     outline: none;
     background-color: transparent;
-    color: white !important;
+    color: white;
     font-weight: 500;
     font-family: 'Gugi', cursive;
   }
@@ -95,4 +95,7 @@
   #button-color{
     background-color: #C0BDA5;
     color: white;
+  }
+  footer{
+    text-align: center;
   }
