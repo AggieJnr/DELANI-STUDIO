@@ -1,14 +1,15 @@
-function output(){
-  var name=document.getElementById("name").value;
-  var email= document.getElementById("email").value;
-  var user=document.getElementById("message").value;
-  if(name==""||email==""||user==""){
-    alert("invalid imput")
+ function submit(){
+ var input1 = document.getElementById('name').value;
+ var email = document.getElementById('email').value;
+ var user = document.getElementById('message').value;
+ if (input1==''|| email==''||user==''){
+ alert('Invalid input');
   }
-  else{
-    alert ("Thank you for reaching out to us.")
+  else {
+ alert ('Hello there. ' +   input1 + "Thank you for reaching out to us.")
   }
-};
+    
+ };
  $(document).ready(function(){
         $("#img1").click(function(){
           $("#img1").hide();
