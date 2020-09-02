@@ -9,7 +9,7 @@ This is a project that details what Delani Studio does and their works. Addition
 Install Delani Studio by cloning this repository: 
 
 ## Link to Live website
-* 
+* https://aggiejnr.github.io/DELANI-STUDIO/
 
 ## BDD
 Behavior	input	output
