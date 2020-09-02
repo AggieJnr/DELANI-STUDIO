@@ -6,7 +6,7 @@ function output(){
     alert("invalid imput")
   }
   else{
-    alert ('Thanks ' + name + " we have received your message. Thank you for reaching out to us.")
+    alert ("Thank you for reaching out to us.")
   }
 };
  $(document).ready(function(){

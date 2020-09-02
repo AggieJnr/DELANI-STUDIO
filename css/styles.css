@@ -1,101 +1,159 @@
-#intro{
-    background-image: url("/home/moringa/DELANI-STUDIO/IP3/assets/backgrounds/h_img.jpg");
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    text-align: center;
-    color: white;
+html{
+    scroll-behavior: smooth;
   }
-  .about{
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    }
-    h1{
-      font-family: 'Roboto Slab', serif;
-      font-weight: 800;
-      font-size: 3.0em;
-    }
-    .mouse_click{
-      padding-top: 10%;
-      animation: 0.2s change infinite;
-    }
-    .mouse_click img{
-      box-shadow: 0 0 10px black;
-    }
-    h2{
-      font-weight: 700;
-      font-family: 'Roboto Slab', serif;
-      text-align: center;
-    }
-    p{
-      line-height: 30pt;
-      font-family: 'Gugi', cursive;
-    }
-    .services{
-      background-image: url("/home/moringa/DELANI-STUDIO/IP3/assets/backgrounds/s_image.jpg");
-      width:100%;
-      height:60vh;
+  #intro{
+      background-image: url("../images/assets/backgrounds/h_img.jpg");
+      width: 100%;
+      height: 100vh;
       background-size: cover;
       text-align: center;
       color: white;
     }
-    .services h2{
-      padding-top: 55px;
+    #intro>h1,.intro>p,.intro>img{
+      margin: 1%;
+      padding:1%;
     }
-    .services p{
-      margin:auto, 60px;
+    #intro>img{
+      padding-top: 6%;
     }
-    .try{
-      width:250px;
-    height:200px;
-    margin: 30px;
+    .about{
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      }
+      h1{
+        font-family: 'Roboto Slab', serif;
+        font-weight: 800;
+        font-size: 3.0em;
+      }
+      .mouse_click{
+        padding-top: 8%;
+        animation: 0.3s change infinite;
+      }
+      @keyframes change {
+        0%{
+          margin-top: -70px;
+        }
+        40%{
+          margin-bottom: -100px;
+        }
+      }
+      .mouse_click img{
+        box-shadow: 0 0 10px black;
+      }
+      h2{
+        font-weight: 700;
+        font-family: 'Roboto Slab', serif;
+        text-align: center;
+      }
+      p{
+        line-height: 30pt;
+        font-family: 'Gugi', cursive;
+      }
+      .services{
+        background-image: url("../images/assets/backgrounds/s_image.jpg");
+        width:100%;
+        height:60vh;
+        background-size: cover;
+        text-align: center;
+        color: white;
+      }
+      .services h2{
+        padding-top: 55px;
+      }
+      .services p{
+        margin:auto, 60px;
+      }
+      .try{
+        width:250px;
+      height:200px;
+      margin: 30px;
+      }
+      .try img{
+        max-width: 100%;
+        max-height: 100%;
+      }
+      .row{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+      } 
+      .test p{
+        font-size: 1.8em;
+        text-align: center;
+        padding: 5px;
+        padding-top: 40px;
+        font-family: 'Merienda', cursive;
+        line-height: 26pt;
+        font-weight: 700;
+      }
+      #safe, #app{
+        display: none;
+        background-color: rgb(168, 159, 159);
+        position: absolute;
+        top: 0px;
+        left: 30px;
+        right: px;
+        bottom: 10px;
+        color: black;
+        width: 50%;
+        height: 210px;
+        padding-bottom: 30px;
+        padding-top: 70px;
+        text-align: center;
+        
+      }
+      .test{
+        background-color: rgba(247, 248, 249,0.7);
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        position:relative;
+        margin-top: -80%;
+       opacity: 0;
+       animation: ease;
+       animation-duration: 2s;
+      }
+      .click{
+        display: none;
+        line-height: 2;
+      }
+    .form-control::placeholder {
+      color: white;
+      opacity: 1;
+      font-weight: bold;
     }
-    .try img{
-      max-width: 100%;
-      max-height: 100%;
+    .contact-form{
+      background-image:url("../images/assets/backgrounds/c_image.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 20px;
+      width: 100%;
     }
-    .row{
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-    } 
-    .click{
-      display: none;
-      line-height: 2;
+    .contact-form h2{
+      color: white;
+      margin: 30px auto;
     }
-  .form-control::placeholder {
-    color: white;
-    opacity: 1;
-    font-weight: bold;
-  }
-  .contact-form{
-    background-image:url("/home/moringa/DELANI-STUDIO/IP3/assets/backgrounds/c_image.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 20px;
-    width: 100%;
-  }
-  input[type="text"],textarea[type="text"],input[type="email"]{
-    background:transparent;
-    outline: none;
-    background-color: transparent;
-    color: white;
-    font-weight: 500;
-    font-family: 'Gugi', cursive;
-  }
-  input{
-    color: white;
-  }
-  #name, #email, #message{
-    background-color: transparent;
-    color: white;
-  }
-  #button-color{
-    background-color: #C0BDA5;
-    color: white;
-  }
-  footer{
-    text-align: center;
-  }
+    input[type="text"],textarea[type="text"],input[type="email"]{
+      background:transparent;
+      outline: none;
+      background-color: transparent;
+      color: white;
+      font-weight: 500;
+      font-family: 'Gugi', cursive;
+    }
+    input{
+      color: white;
+    }
+    #name, #email, #message{
+      background-color: transparent;
+      color: white;
+    }
+    #button-color{
+      background-color: #C0BDA5;
+      color: white;
+    }
+    footer{
+      text-align: center;
+    }
