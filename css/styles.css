@@ -157,3 +157,24 @@ html{
     footer{
       text-align: center;
     }
+    @media screen and (max-width:991px){
+      .try{
+        width:180px;
+        height:130px;
+        margin-bottom: 30px;
+    }
+    .test p{
+      font-size: 1.4em;
+      line-height: 26pt;
+    }
+    .mouse_click{
+      padding-top: 12%;
+    }
+    }
+    @media screen and (max-width:765px){
+    .try{
+      width:300px;
+      height:250px;
+      margin-bottom: 30px;
+      margin: auto;
+    }}
